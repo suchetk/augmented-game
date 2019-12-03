@@ -38,6 +38,7 @@ class ofApp : public ofBaseApp{
     };
     
     mode gamemode;
+    int selection[3];
     
     int w = 640;
     int h = 480;

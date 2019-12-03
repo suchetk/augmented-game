@@ -14,7 +14,7 @@
 int w = 640;
 int h = 480;
 
-ofxCvGrayscaleImage ImageUtilities::findObjects(ofPixels img) {
+ofxCvGrayscaleImage ImageUtilities::processImage(ofPixels img) {
     // https://dirtydebiandevil.wordpress.com/2013/01/21/color-tracking-in-openframework/
     rgb.allocate(w, h);
     filtered.allocate(w, h);

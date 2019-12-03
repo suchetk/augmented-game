@@ -14,10 +14,42 @@ void ofApp::setup(){
 void ofApp::update(){
     // process image and find contours
     camera.update();
-    processed = utils.findObjects(camera.getPixels());
+    processed = utils.processImage(camera.getPixels());
     processed.flagImageChanged();
     contours.findContours(processed, 100, w*h/2, 1, false);
-
+    
+    switch (gamemode) {
+        case START_GAME:
+        {
+            // keep track of the cursor on each option
+            if (contours.blobs.size() == 1) {
+                if (contours.blobs[0].centroid.x > 55 &&
+                    contours.blobs[0].centroid.x < 255 &&
+                    contours.blobs[0].centroid.y > 150 &&
+                    contours.blobs[0].centroid.y < 250) {
+                    selection[0] += 1;
+                 } else if (contours.blobs[0].centroid.x > 370 &&
+                            contours.blobs[0].centroid.x < 570 &&
+                            contours.blobs[0].centroid.y > 150 &&
+                            contours.blobs[0].centroid.y < 250) {
+                     selection[1] += 1;
+                     
+                 } else if (contours.blobs[0].centroid.x > 220 &&
+                            contours.blobs[0].centroid.x < 420 &&
+                            contours.blobs[0].centroid.y > 322 &&
+                            contours.blobs[0].centroid.y < 422) {
+                     selection[2] += 1;
+                 } else {
+                     selection[0] = 0;
+                     selection[1] = 0;
+                     selection[2] = 0;
+                 }
+            }
+            break;
+        }
+        default:
+            break;
+    }
 }
 
 //--------------------------------------------------------------
@@ -28,21 +60,31 @@ void ofApp::draw(){
             // flip and display the webcam image
             camera.draw(camera.getWidth(),0,-camera.getWidth(),camera.getHeight());
             
-            // draw a circle at the centroid (object used as a cursor)
-            if (contours.blobs.size() == 1) {
-                ofDrawCircle(contours.blobs[0].centroid.x, contours.blobs[0].centroid.y, 5);
-            }
-            
-            // draw the options in text
+            // draw the boxes for options
             ofSetColor(255, 102, 102);
             ofDrawRectangle(55, 150, 200, 100);
             ofDrawRectangle(370, 150, 200, 100);
             ofDrawRectangle(220, 322, 200, 100);
             
+            // draw boxes for selection
+            ofSetColor(255, 51, 0);
+            ofDrawRectangle(55, 250, 200, -selection[0]);
+            ofDrawRectangle(370, 250, 200, -selection[1]);
+            ofDrawRectangle(220, 422, 200, -selection[2]);
+            
+            // draw the text for the options
             ofSetColor(255);
-            myFont.drawString("Play", 55, 200);
-            myFont.drawString("About", 370, 200);
-            myFont.drawString("Exit", 220, 372);
+            myFont.drawString("Play", 20+55, 20+200);
+            myFont.drawString("About", 20+370, 20+200);
+            myFont.drawString("Exit", 40+220, 20+372);
+            
+            ofSetColor(255, 255, 0);
+            // draw a circle at the centroid (object used as a cursor)
+            if (contours.blobs.size() == 1) {
+                ofDrawCircle(contours.blobs[0].centroid.x, contours.blobs[0].centroid.y, 10);
+            }
+            
+            
             break;
         }
             

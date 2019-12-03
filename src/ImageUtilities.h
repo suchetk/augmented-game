@@ -17,9 +17,8 @@ class ImageUtilities {
 public:
     ofxCvColorImage rgb;                           //rgb object for storing color image data
     ofxCvGrayscaleImage filtered,red,green,blue;  //objects for storing grayscale image data
-    ofxCvContourFinder contours;                         //object to store contours of the filtered image
 
-    ofxCvGrayscaleImage findObjects(ofPixels img);
+    ofxCvGrayscaleImage processImage(ofPixels img);
     
 };
 
