@@ -7,6 +7,7 @@ void ofApp::setup(){
     "/Users/suchetkumar/Documents/cam-ninja/resources/Plastic-Bucket-Transparent-Images.png");
     
     gamemode = START_GAME;
+    myFont.load("/Users/suchetkumar/Documents/cam-ninja/resources/Iron.ttf", 50);
 }
 
 //--------------------------------------------------------------
@@ -28,10 +29,20 @@ void ofApp::draw(){
             camera.draw(camera.getWidth(),0,-camera.getWidth(),camera.getHeight());
             
             // draw a circle at the centroid (object used as a cursor)
-            ofSetColor(255, 255, 0);
-            ofFill();
-            ofDrawCircle(contours.blobs[0].centroid.x, contours.blobs[0].centroid.y, 5);
+            if (contours.blobs.size() == 1) {
+                ofDrawCircle(contours.blobs[0].centroid.x, contours.blobs[0].centroid.y, 5);
+            }
             
+            // draw the options in text
+            ofSetColor(255, 102, 102);
+            ofDrawRectangle(55, 150, 200, 100);
+            ofDrawRectangle(370, 150, 200, 100);
+            ofDrawRectangle(220, 322, 200, 100);
+            
+            ofSetColor(255);
+            myFont.drawString("Play", 55, 200);
+            myFont.drawString("About", 370, 200);
+            myFont.drawString("Exit", 220, 372);
             break;
         }
             

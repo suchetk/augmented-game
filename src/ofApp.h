@@ -28,6 +28,7 @@ class ofApp : public ofBaseApp{
     ofxCvContourFinder contours;
     ImageUtilities utils;
     ofImage bucket;
+    ofTrueTypeFont myFont;
     
     enum mode {
         START_GAME,
