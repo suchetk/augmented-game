@@ -13,6 +13,9 @@
 		0D4525E91F766050FAA09250 /* b2PulleyJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 307D909B897DA0600214C91F /* b2PulleyJoint.cpp */; };
 		0D94E107924929B64C6AAC3B /* Helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B4CFB120B425E4DD436E94 /* Helpers.cpp */; };
 		12FC5A8BA54C121B762CC65B /* b2Fixture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73C9CF6F13B7F5ECF7C99312 /* b2Fixture.cpp */; };
+		170FC5B623A05D5E009424BE /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+		170FC5B723A05D5E009424BE /* ImageUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F01D38C084630A9375B70C5 /* ImageUtilities.cpp */; };
+		170FC62223A07D8D009424BE /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 170FC61C23A05E65009424BE /* test.cpp */; };
 		20CFDB9BFE4DF0DC47133E48 /* triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F074077C28A14673A0F866C6 /* triangle.cpp */; };
 		2532E200BC029440BD21B3F8 /* ofxBox2dJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 691E573C69A58FA90644BA45 /* ofxBox2dJoint.cpp */; };
 		2B6EFDB0B8A7CC4DE134E516 /* ofxBox2dCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBF28E8558E0F5BE8D944B34 /* ofxBox2dCircle.cpp */; };
@@ -102,6 +105,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		170FC61423A05D5E009424BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -165,6 +177,10 @@
 		15CF271D9FD0E22A26986BE0 /* utility.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utility.hpp; path = ../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cuda/utility.hpp; sourceTree = SOURCE_ROOT; };
 		169CC94CAFFF224D328234B3 /* features2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = features2d.hpp; path = ../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d/features2d.hpp; sourceTree = SOURCE_ROOT; };
 		16A337D1CC12C408310C2F21 /* mat.inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mat.inl.hpp; path = ../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/mat.inl.hpp; sourceTree = SOURCE_ROOT; };
+		170FC61A23A05D5E009424BE /* cam-ninja tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cam-ninja tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		170FC61B23A05D5F009424BE /* cam-ninja copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "cam-ninja copy-Info.plist"; path = "/Users/suchetkumar/Documents/cam-ninja/cam-ninja copy-Info.plist"; sourceTree = "<absolute>"; };
+		170FC61C23A05E65009424BE /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		170FC62023A079F5009424BE /* catch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = catch.hpp; path = test/catch.hpp; sourceTree = SOURCE_ROOT; };
 		17892666553FD36884A4D526 /* b2GrowableStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2GrowableStack.h; path = ../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2GrowableStack.h; sourceTree = SOURCE_ROOT; };
 		18DEA59FB53510715A8F91D5 /* neon_utils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = neon_utils.hpp; path = ../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/neon_utils.hpp; sourceTree = SOURCE_ROOT; };
 		1A6A82F625EDAB1AB9ADD6AD /* b2ChainAndCircleContact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2ChainAndCircleContact.h; path = ../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.h; sourceTree = SOURCE_ROOT; };
@@ -944,6 +960,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		170FC61223A05D5E009424BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1120,6 +1143,15 @@
 				1BD9B3E3E6B0945C3488B8AD /* b2VoronoiDiagram.h */,
 			);
 			name = Particle;
+			sourceTree = "<group>";
+		};
+		170FC61D23A07911009424BE /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				170FC62023A079F5009424BE /* catch.hpp */,
+				170FC61C23A05E65009424BE /* test.cpp */,
+			);
+			path = tests;
 			sourceTree = "<group>";
 		};
 		1BCED01AB6FF39D644190EB9 /* autogenerated */ = {
@@ -2534,6 +2566,7 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
+				170FC61D23A07911009424BE /* tests */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
@@ -2541,6 +2574,8 @@
 				BB4B014C10F69532006C3DED /* addons */,
 				6948EE371B920CB800B5AC1A /* local_addons */,
 				E4B69B5B0A3A1756003C02F2 /* cam-ninjaDebug.app */,
+				170FC61A23A05D5E009424BE /* cam-ninja tests.app */,
+				170FC61B23A05D5F009424BE /* cam-ninja copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2714,6 +2749,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		170FC5B223A05D5E009424BE /* cam-ninja tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170FC61623A05D5E009424BE /* Build configuration list for PBXNativeTarget "cam-ninja tests" */;
+			buildPhases = (
+				170FC5B323A05D5E009424BE /* ShellScript */,
+				170FC5B423A05D5E009424BE /* Sources */,
+				170FC61223A05D5E009424BE /* Frameworks */,
+				170FC61323A05D5E009424BE /* ShellScript */,
+				170FC61423A05D5E009424BE /* CopyFiles */,
+				170FC61523A05D5E009424BE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cam-ninja tests";
+			productName = myOFApp;
+			productReference = 170FC61A23A05D5E009424BE /* cam-ninja tests.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E4B69B5A0A3A1756003C02F2 /* cam-ninja */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "cam-ninja" */;
@@ -2758,11 +2813,51 @@
 			projectRoot = "";
 			targets = (
 				E4B69B5A0A3A1756003C02F2 /* cam-ninja */,
+				170FC5B223A05D5E009424BE /* cam-ninja tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		170FC5B323A05D5E009424BE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "xcodebuild -project \"$OF_PATH/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj\" -target openFrameworks -configuration \"${CONFIGURATION}\"";
+		};
+		170FC61323A05D5E009424BE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved \"$OF_PATH/libs/fmodex/lib/osx/libfmodex.dylib\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n\necho \"$GCC_PREPROCESSOR_DEFINITIONS\";\n";
+		};
+		170FC61523A05D5E009424BE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"$GCC_PREPROCESSOR_DEFINITIONS\";\nAPPSTORE=`expr \"$GCC_PREPROCESSOR_DEFINITIONS\" : \".*APPSTORE=\\([0-9]*\\)\"`\nif [ -z \"$APPSTORE\" ] ; then\necho \"Note: Not copying bin/data to App Package or doing App Code signing. Use AppStore target for AppStore distribution\";\nelse\n# Copy bin/data into App/Resources\nrsync -avz --exclude='.DS_Store' \"${SRCROOT}/bin/data/\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/data/\"\n\n# ---- Code Sign App Package ----\n\n# WARNING: You may have to run Clean in Xcode after changing CODE_SIGN_IDENTITY!\n\n# Verify that $CODE_SIGN_IDENTITY is set\nif [ -z \"${CODE_SIGN_IDENTITY}\" ] ; then\necho \"CODE_SIGN_IDENTITY needs to be set for framework code-signing\"\nexit 0\nfi\n\nif [ -z \"${CODE_SIGN_ENTITLEMENTS}\" ] ; then\necho \"CODE_SIGN_ENTITLEMENTS needs to be set for framework code-signing!\"\n\nif [ \"${CONFIGURATION}\" = \"Release\" ] ; then\nexit 1\nelse\n# Code-signing is optional for non-release builds.\nexit 0\nfi\nfi\n\nITEMS=\"\"\n\nFRAMEWORKS_DIR=\"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\necho \"$FRAMEWORKS_DIR\"\nif [ -d \"$FRAMEWORKS_DIR\" ] ; then\nFRAMEWORKS=$(find \"${FRAMEWORKS_DIR}\" -depth -type d -name \"*.framework\" -or -name \"*.dylib\" -or -name \"*.bundle\" | sed -e \"s/\\(.*framework\\)/\\1\\/Versions\\/A\\//\")\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\nITEMS=\"${FRAMEWORKS}\"\nfi\n\nLOGINITEMS_DIR=\"${TARGET_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/Library/LoginItems/\"\nif [ -d \"$LOGINITEMS_DIR\" ] ; then\nLOGINITEMS=$(find \"${LOGINITEMS_DIR}\" -depth -type d -name \"*.app\")\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\nITEMS=\"${ITEMS}\"$'\\n'\"${LOGINITEMS}\"\nfi\n\n# Prefer the expanded name, if available.\nCODE_SIGN_IDENTITY_FOR_ITEMS=\"${EXPANDED_CODE_SIGN_IDENTITY_NAME}\"\nif [ \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\" = \"\" ] ; then\n# Fall back to old behavior.\nCODE_SIGN_IDENTITY_FOR_ITEMS=\"${CODE_SIGN_IDENTITY}\"\nfi\n\necho \"Identity:\"\necho \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\"\n\necho \"Entitlements:\"\necho \"${CODE_SIGN_ENTITLEMENTS}\"\n\necho \"Found:\"\necho \"${ITEMS}\"\n\n# Change the Internal Field Separator (IFS) so that spaces in paths will not cause problems below.\nSAVED_IFS=$IFS\nIFS=$(echo -en \"\\n\\b\")\n\n# Loop through all items.\nfor ITEM in $ITEMS;\ndo\necho \"Stripping invalid archs '${ITEM}'\"\nlipo -remove i386 \"${ITEM}\" -o \"${ITEM}\"\necho \"Signing '${ITEM}'\"\ncodesign --force --verbose --sign \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\" --entitlements \"${CODE_SIGN_ENTITLEMENTS}\" \"${ITEM}\"\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\necho \"Failed to sign '${ITEM}'.\"\nIFS=$SAVED_IFS\nexit 1\nfi\ndone\n\n# Restore $IFS.\nIFS=$SAVED_IFS\n\nfi\n";
+		};
 		8466F1851C04CA0E00918B1C /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 12;
@@ -2805,6 +2900,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		170FC5B423A05D5E009424BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170FC5B623A05D5E009424BE /* ofApp.cpp in Sources */,
+				170FC62223A07D8D009424BE /* test.cpp in Sources */,
+				170FC5B723A05D5E009424BE /* ImageUtilities.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4B69B580A3A1756003C02F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2907,6 +3012,379 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		170FC61723A05D5E009424BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					src,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Collision,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Common,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Particle,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Rope,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Triangle,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Enhancements,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Enhancements/FixedPoint,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Utilities,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Utilities/ConvexDecomposition,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/src,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cuda,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cuda/detail,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/opencl,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/opencl/runtime,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/opencl/runtime/autogenerated,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/openvx,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/private,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/utils,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/cpu,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/fluid,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/gpu,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/ocl,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/own,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/util,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/highgui,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgcodecs,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgcodecs/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/detail,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/ml,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/photo,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/photo/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/stitching,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/stitching/detail,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/ts,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/videoio,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/videoio/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/calib3d,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/cuda,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/cuda/detail,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/opencl,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/opencl/runtime,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/opencl/runtime/autogenerated,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/utils,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/dnn,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/features2d,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/features2d/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/flann,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/imgproc,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/imgproc/detail,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/imgproc/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/ml,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/objdetect,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/photo,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/photo/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/video,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/video/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/lib,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/lib/emscripten,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/lib/osx,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/license,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/src,
+					../../Downloads/of_v20191109_osx_release/addons/ofxCv/libs/ofxCv/include,
+					../../Downloads/of_v20191109_osx_release/addons/ofxCv/libs/CLD/include/CLD,
+					../../Downloads/of_v20191109_osx_release/addons/ofxCv/src,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "cam-ninja copy-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_LIBS)",
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(LIB_OF_DEBUG)",
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		170FC61823A05D5E009424BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					src,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Collision,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Common,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Particle,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Rope,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Triangle,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Enhancements,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Enhancements/FixedPoint,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Utilities,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Utilities/ConvexDecomposition,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/src,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cuda,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cuda/detail,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/opencl,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/opencl/runtime,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/opencl/runtime/autogenerated,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/openvx,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/private,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/utils,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/cpu,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/fluid,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/gpu,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/ocl,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/own,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/util,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/highgui,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgcodecs,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgcodecs/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/detail,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/ml,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/photo,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/photo/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/stitching,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/stitching/detail,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/ts,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/videoio,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/videoio/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/calib3d,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/cuda,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/cuda/detail,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/opencl,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/opencl/runtime,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/opencl/runtime/autogenerated,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/utils,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/dnn,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/features2d,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/features2d/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/flann,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/imgproc,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/imgproc/detail,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/imgproc/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/ml,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/objdetect,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/photo,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/photo/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/video,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/video/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/lib,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/lib/emscripten,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/lib/osx,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/license,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/src,
+					../../Downloads/of_v20191109_osx_release/addons/ofxCv/libs/ofxCv/include,
+					../../Downloads/of_v20191109_osx_release/addons/ofxCv/libs/CLD/include/CLD,
+					../../Downloads/of_v20191109_osx_release/addons/ofxCv/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "cam-ninja copy-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_LIBS)",
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(LIB_OF)",
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+		170FC61923A05D5E009424BE /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "APPSTORE=1";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					src,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Collision,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Common,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Particle,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Box2D/Rope,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/Triangle,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Enhancements,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Enhancements/FixedPoint,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Utilities,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/libs/liquidfun/Contributions/Utilities/ConvexDecomposition,
+					../../Downloads/of_v20191109_osx_release/addons/ofxBox2d/src,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cuda,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cuda/detail,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/opencl,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/opencl/runtime,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/opencl/runtime/autogenerated,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/openvx,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/private,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/utils,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/cpu,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/fluid,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/gpu,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/ocl,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/own,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gapi/util,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/highgui,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgcodecs,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgcodecs/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/detail,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/ml,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/photo,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/photo/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/stitching,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/stitching/detail,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/ts,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/videoio,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/videoio/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/calib3d,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/cuda,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/cuda/detail,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/opencl,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/opencl/runtime,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/opencl/runtime/autogenerated,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/utils,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/dnn,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/features2d,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/features2d/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/flann,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/imgproc,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/imgproc/detail,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/imgproc/hal,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/ml,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/objdetect,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/photo,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/photo/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/video,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/video/legacy,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/lib,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/lib/emscripten,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/lib/osx,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/license,
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/src,
+					../../Downloads/of_v20191109_osx_release/addons/ofxCv/libs/ofxCv/include,
+					../../Downloads/of_v20191109_osx_release/addons/ofxCv/libs/CLD/include/CLD,
+					../../Downloads/of_v20191109_osx_release/addons/ofxCv/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "cam-ninja copy-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_LIBS)",
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(LIB_OF)",
+					../../Downloads/of_v20191109_osx_release/addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = AppStore;
+		};
 		99FA3DBB1C7456C400CFA0EE /* AppStore */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
@@ -3668,6 +4146,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		170FC61623A05D5E009424BE /* Build configuration list for PBXNativeTarget "cam-ninja tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170FC61723A05D5E009424BE /* Debug */,
+				170FC61823A05D5E009424BE /* Release */,
+				170FC61923A05D5E009424BE /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "cam-ninja" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

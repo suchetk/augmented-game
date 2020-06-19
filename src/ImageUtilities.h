@@ -11,7 +11,6 @@
 #include "ofMain.h"
 #include "ofxOpenCv.h"
 #include "ofxCv.h"
-#include "ImageUtilities.h"
 
 class ImageUtilities {
 public:
